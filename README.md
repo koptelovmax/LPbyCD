@@ -18,14 +18,10 @@ https://dl.acm.org/doi/abs/10.1145/3341105.3373874
 6) Retrive results from 'results' folder.
 
 ## Input parameters:
-*data set name*: 'Enzyme', 'GPCR', 'IC', 'NR' or 'Kinase'
-
-*matching type*: 'com-com' for CC matching or 'node-com' for NC matching
-
-*measure type*: 'common neighbors', 'jaccard', 'preferential attachment', 'simrank', 'community relevance' accompanying CC matching or 'common neighbors', 'jaccard', 'preferential attachment', 'simrank', 'car neighbors', 'car jaccard', 'neighboring community' for NC matching
-
-*fold id*: integer from 1 to 5
-
+1) *data set name*: 'Enzyme', 'GPCR', 'IC', 'NR' or 'Kinase'
+2) *matching type*: 'com-com' for CC matching or 'node-com' for NC matching
+3) *measure type*: 'common neighbors', 'jaccard', 'preferential attachment', 'simrank', 'community relevance' accompanying CC matching or 'common neighbors', 'jaccard', 'preferential attachment', 'simrank', 'car neighbors', 'car jaccard', 'neighboring community' for NC matching
+4) *fold id*: integer from 1 to 5
 
 Environment requirements: Python 2.7, networkx 1.11, python-louvain, scikit-learn, numpy
 
