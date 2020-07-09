@@ -19,11 +19,16 @@ https://dl.acm.org/doi/abs/10.1145/3341105.3373874
 
 ## Input parameters:
 *data set name*: 'Enzyme', 'GPCR', 'IC', 'NR' or 'Kinase'
+
 *matching type*: 'com-com' for CC matching or 'node-com' for NC matching
+
 *measure type*: 'common neighbors', 'jaccard', 'preferential attachment', 'simrank', 'community relevance' accompanying CC matching or 'common neighbors', 'jaccard', 'preferential attachment', 'simrank', 'car neighbors', 'car jaccard', 'neighboring community' for NC matching
+
 *fold id*: integer from 1 to 5
+
 
 Environment requirements: Python 2.7, networkx 1.11, python-louvain, scikit-learn, numpy
 
 The data can be downloaded from here: http://web.kuicr.kyoto-u.ac.jp/supp/yoshi/drugtarget/, http://staff.cs.utu.fi/~aatapa/data/DrugTarget/.
-The data needs to be preprocessed to adjacency lists, and ligand and drug names need to be mapped to consecutive integers, i.e. $l0, l1, l2,\ldots$, $t0, t1, t2,\ldots$.
+
+The data needs to be preprocessed to adjacency lists, and ligand and drug names need to be mapped to consecutive integers, i.e. l0, l1, l2, ... , t0, t1, t2, ... .
